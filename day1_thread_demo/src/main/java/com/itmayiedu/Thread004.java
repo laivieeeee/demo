@@ -17,7 +17,7 @@ public class Thread004 {
 				}
 			}
 		});
-
+		System.out.println("新建分之");
 		t1.start();
 	}
 
