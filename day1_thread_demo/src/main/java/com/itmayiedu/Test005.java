@@ -13,7 +13,7 @@ public class Test005 {
 					} catch (Exception e) {
 
 						// TODO: handle exception
-						System.out.println("我是子线程(用户线程)");
+						System.out.println("我是子线程(用户线程)水电费水电费");
 
 					}
 					System.out.println("我是子线程(用户线程)");
