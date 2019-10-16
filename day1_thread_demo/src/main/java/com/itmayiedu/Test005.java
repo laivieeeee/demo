@@ -11,7 +11,10 @@ public class Test005 {
 						Thread.sleep(1000);
 
 					} catch (Exception e) {
+
 						// TODO: handle exception
+						System.out.println("我是子线程(用户线程)");
+
 					}
 					System.out.println("我是子线程(用户线程)");
 				}
