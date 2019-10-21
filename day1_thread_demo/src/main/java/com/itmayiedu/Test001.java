@@ -31,6 +31,7 @@ public class Test001 {
 		ThreadDemo01 threadDemo01 = new ThreadDemo01();
 		// 2.Æô¶¯Ïß³Ì
 		
+		
 		threadDemo01.start();
 		try {
 			threadDemo01.join();
