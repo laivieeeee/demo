@@ -28,6 +28,7 @@ public class Test001 {
 	public static void main(String[] args) {
 		System.out.println("main... 主线程开始...");
 		// 1.创建线程
+		//
 		ThreadDemo01 threadDemo01 = new ThreadDemo01();
 		// 2.启动线程
 		threadDemo01.start();
