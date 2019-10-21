@@ -30,6 +30,7 @@ public class Test001 {
 		// 1.创建线程
 		ThreadDemo01 threadDemo01 = new ThreadDemo01();
 		// 2.启动线程
+		
 		threadDemo01.start();
 		try {
 			threadDemo01.join();
