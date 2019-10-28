@@ -21,6 +21,7 @@ public class Test005 {
 			}
 		});
 		// 标识当前方法为守护线程
+		//冲突
 		t1.setDaemon(true);
 		t1.start();
 		for (int i = 0; i < 10; i++) {
