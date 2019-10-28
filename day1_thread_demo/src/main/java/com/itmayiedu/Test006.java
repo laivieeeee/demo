@@ -14,6 +14,7 @@ public class Test006 {
 		});
 		t1.start();
 		// 当前线程释放资格权，等t1执行完毕之后，才会继续进行执行。
+		//测试
 		t1.join();
 		for (int i = 0; i < 10; i++) {
 			System.out.println("main线程,i:" + i);
