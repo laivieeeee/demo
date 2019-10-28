@@ -9,6 +9,7 @@ public class Thread004 {
 					// 学习到定时job
 					try {
 						// 将程序变为休眠状态
+						
 						Thread.currentThread().sleep(1000);
 					} catch (Exception e) {
 						// TODO: handle exception
